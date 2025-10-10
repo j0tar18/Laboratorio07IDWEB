@@ -1,0 +1,47 @@
+h1{
+    color: #0f0;
+}
+
+p{
+    font-style: italic;
+}
+
+.titulo{
+    color: red;
+    font-size: 24px;
+    text-align: center;
+}
+
+.box{
+    background-color: yellow;
+    border: 2px blue solid;
+    padding: 10px;
+    margin: 15px;
+}
+
+#unico{
+    color: blue;
+    font-weight: bold;
+    border: red solid 3px;
+}
+
+.buttom{
+    background-color: green;
+    border-radius: 200px;
+    padding: 15px 15px;
+    color: white;
+}
+
+.box2{
+    border: black 2px ;
+    background-color: grey;
+    padding: 10px;
+}
+
+.redondeado{
+    border-radius: 15px;
+}
+
+.sombreada{
+    box-shadow: 5px 5px 10px #999f;
+}
