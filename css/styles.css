@@ -1,47 +1,59 @@
-h1{
+/* Ejercicio 4: Encabezados h1 en verde */
+h1 {
     color: #0f0;
 }
 
-p{
+/* Ejercicio 4: Todos los párrafos en cursiva */
+p {
     font-style: italic;
 }
 
-.titulo{
+/* Ejercicio 5: Párrafo con clase "titulo" - rojo, centrado, 24px */
+.titulo {
     color: red;
     font-size: 24px;
     text-align: center;
 }
 
-.box{
+/* Ejercicio 6: Caja con fondo amarillo, borde azul, padding y margin */
+.box {
     background-color: yellow;
-    border: 2px blue solid;
+    border: 2px solid blue;
     padding: 10px;
     margin: 15px;
 }
 
-#unico{
+/* Ejercicio 7: Elemento único - azul, negrita, borde rojo 3px */
+#unico {
     color: blue;
     font-weight: bold;
-    border: red solid 3px;
-}
-
-.buttom{
-    background-color: green;
-    border-radius: 200px;
-    padding: 15px 15px;
-    color: white;
-}
-
-.box2{
-    border: black 2px ;
-    background-color: grey;
+    border: 3px solid red;
     padding: 10px;
 }
 
-.redondeado{
+/* Ejercicio 8: Botón - fondo verde, texto blanco, borde redondeado */
+.boton {
+    background-color: green;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+/* Ejercicio 10a: Borde negro de 2px y fondo gris */
+.box2 {
+    border: 2px solid black;
+    background-color: grey;
+    padding: 10px;
+    margin: 15px;
+    min-height: 50px;
+}
+
+/* Ejercicio 10b: Esquinas redondeadas de 15px */
+.redondeado {
     border-radius: 15px;
 }
 
-.sombreada{
-    box-shadow: 5px 5px 10px #999f;
+/* Ejercicio 10c: Sombra gris con box-shadow */
+.sombreada {
+    box-shadow: 5px 5px 10px rgba(153, 153, 153, 0.6);
 }
